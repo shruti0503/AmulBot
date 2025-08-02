@@ -1,0 +1,22 @@
+{
+  "name": "playwright-scraper",
+  "version": "1.0.0",
+  "description": "A web scraping application using Playwright to check product stock status.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^10.0.0",
+    "nodemailer": "^6.10.1",
+    "playwright": "^1.17.0"
+  },
+  "devDependencies": {
+    "node-cron": "^3.0.0"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
